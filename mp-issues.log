@@ -15,3 +15,9 @@
 [2026-11-20T02:23:23+0000] [INFO] [3] [weGXhy_wYQfFchR96wQhkA] [-] 已抓取并登记 mp_json/3_weGXhy_wYQfFchR96wQhkA.json
 [2026-11-20T02:23:23+0000] [INFO] [3] [weGXhy_wYQfFchR96wQhkA] [5] 新建 Issue https://github.com/shenjuexiao/mp-issues/issues/5
 [2026-11-20T02:23:24+0000] [INFO] [-] [-] [-] === mp-issues 结束 ===
+[2026-11-20T02:32:10+0000] [INFO] [-] [-] [-] === mp-issues 开始 ===
+[2026-11-20T02:32:10+0000] [INFO] [-] [v6j6Ux2A_UofYJTuJotpOw] [-] 抓取新文章 https://mp.weixin.qq.com/s/v6j6Ux2A_UofYJTuJotpOw
+[2026-11-20T02:32:13+0000] [INFO] [4] [v6j6Ux2A_UofYJTuJotpOw] [-] 已抓取并登记 mp_json/4_v6j6Ux2A_UofYJTuJotpOw.json
+[2026-11-20T02:32:14+0000] [INFO] [4] [v6j6Ux2A_UofYJTuJotpOw] [6] 新建 Issue https://github.com/shenjuexiao/mp-issues/issues/6
+[2026-11-20T02:32:15+0000] [ERROR] [3] [weGXhy_wYQfFchR96wQhkA] [5] 获取 Issue 失败: 获取 Issue #5 失败: 410 {'message': 'This issue was deleted', 'documentation_url': 'https://docs.github.com/rest/issues/issues#get-an-issue', 'status': '410'}
+[2026-11-20T02:32:15+0000] [INFO] [-] [-] [-] === mp-issues 结束 ===
