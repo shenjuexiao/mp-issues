@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "next_number": 3,
+  "next_number": 4,
   "items": {
     "aHHZsapPnmKZC0N8YwFfZA": {
       "mp_number": 1,
@@ -37,6 +37,23 @@
       "issues_created": "2026-11-20T00:26:46Z",
       "issues_updated": "2026-11-20T01:14:05Z",
       "issues_json": "issues_json/4_giMZknajhbOJjD0jqJPsaw.json"
+    },
+    "weGXhy_wYQfFchR96wQhkA": {
+      "mp_number": 3,
+      "mp_link": "https://mp.weixin.qq.com/s/weGXhy_wYQfFchR96wQhkA",
+      "mp_string": "weGXhy_wYQfFchR96wQhkA",
+      "mp_time": "2026-11-20T10:23:23+08:00",
+      "mp_date": "2026-11-20",
+      "mp_json": "mp_json/3_weGXhy_wYQfFchR96wQhkA.json",
+      "issues_id": 5,
+      "issues_url": "https://github.com/shenjuexiao/mp-issues/issues/5",
+      "issues_state": "open",
+      "issues_labels": [
+        "MP"
+      ],
+      "issues_created": "2026-11-20T02:23:23Z",
+      "issues_updated": "2026-11-20T02:23:23Z",
+      "issues_json": "issues_json/5_weGXhy_wYQfFchR96wQhkA.json"
     }
   }
 }
