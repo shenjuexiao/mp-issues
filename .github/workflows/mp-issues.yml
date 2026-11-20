@@ -1,0 +1,47 @@
+# mp-issues-0.4.0.yml
+# github.com/shenjuexiao
+# 20261124
+
+name: mp-issues
+
+on:
+  push:
+    paths:
+      - 'mp.md'
+  workflow_dispatch:
+
+concurrency:
+  group: mp-issues
+  cancel-in-progress: false
+
+permissions:
+  issues: write
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 markdownify
+
+      - name: Run mp-issues
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python mp-issues.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add mp-issues.json mp-issues.log issues.md mp_json/ issues_json/ issues_md/
+          git diff --cached --quiet || git commit -m "chore: sync mp-issues [skip ci]"
+          git push
