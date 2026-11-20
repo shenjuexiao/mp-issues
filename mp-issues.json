@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "next_number": 2,
+  "items": {
+    "aHHZsapPnmKZC0N8YwFfZA": {
+      "mp_number": 1,
+      "mp_link": "https://mp.weixin.qq.com/s/aHHZsapPnmKZC0N8YwFfZA",
+      "mp_string": "aHHZsapPnmKZC0N8YwFfZA",
+      "mp_title": "刚洗的杯子，怎么一倒热水就有“油污”跑出来？",
+      "mp_time": "2026-11-20T08:23:32+08:00",
+      "mp_date": "2026-11-20",
+      "mp_json": "mp_json/1_aHHZsapPnmKZC0N8YwFfZA.json",
+      "issues_id": 3,
+      "issues_url": "https://github.com/shenjuexiao/mp-issues/issues/3",
+      "issues_state": "open",
+      "issues_labels": [
+        "MP"
+      ],
+      "issues_created": "2026-11-20T00:23:33Z",
+      "issues_updated": "2026-11-20T00:23:33Z",
+      "issues_json": "issues_json/3_aHHZsapPnmKZC0N8YwFfZA.json"
+    }
+  }
+}
