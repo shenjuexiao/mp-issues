@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "next_number": 2,
+  "next_number": 3,
   "items": {
     "aHHZsapPnmKZC0N8YwFfZA": {
       "mp_number": 1,
@@ -19,6 +19,24 @@
       "issues_created": "2026-11-20T00:23:33Z",
       "issues_updated": "2026-11-20T00:23:33Z",
       "issues_json": "issues_json/3_aHHZsapPnmKZC0N8YwFfZA.json"
+    },
+    "giMZknajhbOJjD0jqJPsaw": {
+      "mp_number": 2,
+      "mp_link": "https://mp.weixin.qq.com/s/giMZknajhbOJjD0jqJPsaw",
+      "mp_string": "giMZknajhbOJjD0jqJPsaw",
+      "mp_title": "一次性环保纸杯可能让你喝掉更多塑料",
+      "mp_time": "2026-11-20T08:26:45+08:00",
+      "mp_date": "2026-11-20",
+      "mp_json": "mp_json/2_giMZknajhbOJjD0jqJPsaw.json",
+      "issues_id": 4,
+      "issues_url": "https://github.com/shenjuexiao/mp-issues/issues/4",
+      "issues_state": "open",
+      "issues_labels": [
+        "MP"
+      ],
+      "issues_created": "2026-11-20T00:26:46Z",
+      "issues_updated": "2026-11-20T00:26:46Z",
+      "issues_json": "issues_json/4_giMZknajhbOJjD0jqJPsaw.json"
     }
   }
 }
