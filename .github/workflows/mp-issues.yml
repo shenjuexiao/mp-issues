@@ -45,3 +45,4 @@ jobs:
           git add mp-issues.json mp-issues.log issues.md mp_json/ issues_json/ issues_md/
           git diff --cached --quiet || git commit -m "chore: sync mp-issues [skip ci]"
           git push
+          
