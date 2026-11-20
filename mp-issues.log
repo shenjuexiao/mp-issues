@@ -4,3 +4,9 @@
 [2026-11-20T08:26:45+08:00] [INFO] [] [giMZknajhbOJjD0jqJPsaw] fetched as mp_number=2
 [2026-11-20T08:26:46+08:00] [INFO] [4] [giMZknajhbOJjD0jqJPsaw] issue created
 [2026-11-20T08:26:46+08:00] [INFO] [] [] sync completed
+[2026-11-20T01:14:04+0000] [INFO] [-] [-] [-] === mp-issues 开始 ===
+[2026-11-20T01:14:05+0000] [INFO] [1] [aHHZsapPnmKZC0N8YwFfZA] [3] 更新 Issue 字段 ['body']
+[2026-11-20T01:14:06+0000] [INFO] [2] [giMZknajhbOJjD0jqJPsaw] [4] 更新 Issue 字段 ['body']
+[2026-11-20T01:14:08+0000] [INFO] [-] [-] [2] 孤儿 Issue 关闭并改标签 ['OUT']
+[2026-11-20T01:14:10+0000] [INFO] [-] [-] [1] 孤儿 Issue 关闭并改标签 ['OUT']
+[2026-11-20T01:14:10+0000] [INFO] [-] [-] [-] === mp-issues 结束 ===
